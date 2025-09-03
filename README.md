@@ -1,5 +1,5 @@
 # FqView
-FqView is an application I use to learn Rust programming. The main purpose is to quickly be able to view images by pre-loading them into video memory. It can browse into archives to load images. It uses Speedy2D to upload images as OpenGL textures.
+FqView is an application I use to learn Rust programming. The main purpose is to quickly view images by pre-loading them into video memory and have the GPU preform any scaling. It can browse into archives to load images. It uses Speedy2D to upload images as OpenGL textures.
 
 ![fq2](https://github.com/user-attachments/assets/59e835b9-4e77-4b14-9e72-d7122203502f)
 
@@ -25,7 +25,7 @@ Holding Ctrl/Shift and an arrow key makes the scrolling faster/slower.
 Right click in browser view goes up a directory level.
 
 ## TODO
-As a learning project there are plenty to improve upon. In no particular order:
+As a learning project there is plenty to improve upon. In no particular order:
 * Support opening files from commandline
 * Make it possible to unload images and data
 * Change caching to preload more images
